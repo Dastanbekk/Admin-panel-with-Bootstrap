@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox_input {
+  display: none;
+}
+
+
+.container2{
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav{
+  padding: 20px 0;
+}
+
+.three{
+  display: flex;
+}
+
+
+.footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-top: 1px solid #e9ecef;
+  font-size: 0.9rem;
+}
+.footer .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.footer .logo .ware {
+  color: black;
+}
+.footer .logo .view {
+  color: #0099FF;
+}
+.footer .tagline {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+.footer .social-icons a {
+  color: #0099FF;
+  font-size: 1.25rem;
+  margin-right: 15px;
+}

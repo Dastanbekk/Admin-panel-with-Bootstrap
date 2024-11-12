@@ -1,0 +1,38 @@
+.left_cards{
+    padding: 20px 43px;
+}
+
+.ware_in{
+    max-width:890px;
+    width: 100%;
+    background-color: #dedede;
+}
+
+.cardss{
+    display: flex;
+    gap: 10px;
+}
+.card1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFF;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ware_stock{
+    padding: 0 43px;
+    background-color: #FFF;
+    padding: 25px 28px;
+}
+
+.three{
+    display: flex;
+}

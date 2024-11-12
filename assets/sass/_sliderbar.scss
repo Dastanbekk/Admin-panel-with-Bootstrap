@@ -1,0 +1,81 @@
+.slidebar{
+    width: 20%;
+    padding: 10px 0;
+    background-color:#dedede;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &_links{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        a{
+            text-decoration: none;
+            color: #212529;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 11px 18px;
+            border-radius: 8px;
+            &:hover{
+                background-color: #04B4FC;
+                color: white;
+                img {
+                    filter: brightness(0) invert(1);
+                  }
+            }
+        }
+    }
+}
+
+.inactive{
+    background-color: #04B4FC;
+    color: #FFF;
+    img {
+        filter: brightness(0) invert(1);
+    }
+}
+
+.admin{
+    border: 1px solid #dedede;
+    max-width: 358px;
+    width: 100%;
+    padding: 24px 40px;
+    &_card{
+        border-bottom: 1px solid #dedede;
+        padding-bottom: 20px;
+    }
+}
+
+.card_desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.actions{
+    margin-top: 20px;
+    border-bottom: 1px solid #dedede;
+}
+.actions_link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.actions_links{
+    display: flex;
+    justify-content: space-between;
+    span{
+        display: flex;
+        gap: 10px;
+        color: #dedede;
+    }
+    p{
+        color: #dedede;
+    }
+}
+
+.moving{
+    margin-top: 30px;
+}
